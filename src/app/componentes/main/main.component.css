@@ -1,6 +1,7 @@
 main {
     background-image: url(../../../assets/img/patron-acuarela-trazos-abstractos_52683-56546.jpg);
     background-size: 100%;
+    height: 100%;
 }
 .inicio {
     display: block;
@@ -21,6 +22,10 @@ main {
     align-items: center;
 }
 .frase {
+    padding: 1rem;
     font-family: 'Niconne', cursive;
     font-size: 2.5rem;
+    color: rgb(230, 193, 218);
+    background-color: blueviolet;
+    border-radius: 30px;
 }
