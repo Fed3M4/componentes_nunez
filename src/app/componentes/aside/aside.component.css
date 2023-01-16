@@ -1,7 +1,7 @@
 aside {
-    display: block;
     display: flex;
-    justify-content: center;
+    display: block;
+    justify-content: space-around;
     font-family: 'Kanit', sans-serif;
     background-color: rgb(100, 98, 102);
     height: 100%;
@@ -9,6 +9,7 @@ aside {
 .listaAside {
     list-style: none;
     width: 100%;
+    padding: 0;
 }
 .listaAside li {
     width: 100%;
@@ -16,10 +17,11 @@ aside {
 }
 .listaAside li:hover {
     background-color: rgb(166, 98, 230);
+    border-radius: 15px;
 }
 .listaAside li a {
-    padding: 1rem;
     color: antiquewhite;
+    padding: 0 2rem;
 }
 .listaAside li a:link{
     text-decoration: none;
