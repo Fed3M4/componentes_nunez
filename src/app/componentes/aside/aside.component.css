@@ -1,0 +1,26 @@
+aside {
+    display: block;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(100, 98, 102);
+    height: 100%;
+}
+.listaAside {
+    list-style: none;
+    width: 100%;
+}
+.listaAside li {
+    width: 100%;
+    padding: 0.5rem 0;
+}
+.listaAside li:hover {
+    background-color: rgb(166, 98, 230);
+}
+.listaAside li a {
+    padding: 1rem;
+    color: antiquewhite;
+}
+.listaAside li a:link{
+    text-decoration: none;
+}

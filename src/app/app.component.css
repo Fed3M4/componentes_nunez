@@ -1,0 +1,17 @@
+.components {
+    display: grid;
+    grid-template-columns:  1fr 6fr;
+    grid-template-rows: 0.5fr 6.5fr;
+    grid-template-areas: 
+    "header header"
+    "aside main";
+}
+.header {
+    grid-area: header;
+}
+.aside {
+    grid-area: aside;
+}
+.main {
+    grid-area: main;
+}

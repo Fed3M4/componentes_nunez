@@ -1,0 +1,25 @@
+.barraSup {
+    padding: 0.5rem;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(66, 56, 56);
+    height: 100%;
+}
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Niconne', cursive;
+    color: rgb(117, 116, 115);
+}
+.rrss {
+    list-style: none;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+}
+.imgRRSS {
+    width: 3rem;
+    
+}
